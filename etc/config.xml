@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--
+ /** 
+  * @author Justin Stern (www.foxrunsoftware.net)
+  * @copyright  Copyright (c) 2012 Justin Stern
+  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+  * 
+  * @package FoxRunSoftware_GoogleAnalyticsExclude
+  */
+-->
+<config>
+    <modules>
+        <FoxRunSoftware_GoogleAnalyticsExclude>
+            <version>1.0.0</version>
+            <depends>
+                <Mage_GoogleAnalytics />
+            </depends>
+        </FoxRunSoftware_GoogleAnalyticsExclude>
+    </modules>
+    <global>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <!-- not technically rewriting, just adding, but this is how you do it -->
+                    <system_config_google_ga_exclude>FoxRunSoftware_GoogleAnalyticsExclude_Adminhtml_Block_System_Config_Google_Ga_Exclude</system_config_google_ga_exclude>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+        <helpers>
+            <googleanalytics>
+                <rewrite>
+                    <data>FoxRunSoftware_GoogleAnalyticsExclude_GoogleAnalytics_Helper_Data</data>
+                </rewrite>
+            </googleanalytics>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                    	<!-- Hook up the controller -->
+                        <FoxRunSoftware_GoogleAnalyticsExclude>FoxRunSoftware_GoogleAnalyticsExclude_Adminhtml</FoxRunSoftware_GoogleAnalyticsExclude>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

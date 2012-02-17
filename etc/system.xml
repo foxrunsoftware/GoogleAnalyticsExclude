@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+ /** 
+  * @author Justin Stern (www.foxrunsoftware.net)
+  * @copyright  Copyright (c) 2012 Justin Stern
+  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+  * 
+  * @package FoxRunSoftware_GoogleAnalyticsExclude
+  */
+-->
+<config>
+    <sections>
+        <google>
+            <groups>
+                <analytics>
+                    <fields>
+                        <test translate="label comment">
+                            <label>Exclude This Browser</label>
+                            <comment>Toggles a cookie in this browser, which when enabled suppresses the client-side Google Analytics code.  Make sure to enable this on *all* browsers you use to access the site, and re-enable if you clear your cookies.</comment>
+                            <frontend_type>button</frontend_type>
+                            <frontend_model>adminhtml/system_config_google_ga_exclude</frontend_model>  <!-- This is actually a block -->
+                            <sort_order>21</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </test>
+                    </fields>
+                </analytics>
+            </groups>
+        </google>
+    </sections>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>       
+	    <FoxRunSoftware_GoogleAnalyticsExclude>
+	        <active>true</active>
+            <codePool>community</codePool>
+	    </FoxRunSoftware_GoogleAnalyticsExclude>  
+    </modules>
+</config>

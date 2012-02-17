@@ -17,7 +17,7 @@ Instructions
 After installing the extension:
 
 * Log into you Magento admin
-* Go to: System > Configuration > Sales Ð Google API
+* Go to: System > Configuration > Sales - Google API
 * Expand Google Analytics and click 'Exclude'
 * Repeat for all other computers/browsers you wish to have excluded from your Google Analytics data
 

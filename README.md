@@ -24,10 +24,10 @@ After installing the extension:
 Changelog
 ---------
 
-### 1.0.1 - 2/17/2012 ###
+#### 1.0.1 - 2/17/2012 ####
 * Refactor: constant used for google analytics exclude cookie name
 
-### 1.0.0 - 2/6/2012 ###
+#### 1.0.0 - 2/6/2012 ####
 * Initial stable release
 
 License

@@ -3,7 +3,10 @@ Google Analytics Exclude - Magento Extension
 
 A free Magento extension to easily stop your computer from appearing in Google Analytics for your Magento store, even with a dynamic IP.
 
-**Product Page** - http://www.foxrunsoftware.net/shop/magento-extensions/google-analytics-exclude/
+<dl>
+  <dt>Product Page</dt>
+  <dd>http://www.foxrunsoftware.net/shop/magento-extensions/google-analytics-exclude/</dd>
+</dl>
 
 Features
 --------

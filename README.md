@@ -14,7 +14,7 @@ Features
 Instructions
 ------------
 
-After installing the extension:
+Download from [foxrunsoftware.net](http://www.foxrunsoftware.net/shop/magento-extensions/google-analytics-exclude/) or [github](https://github.com/foxrunsoftware/GoogleAnalyticsExclude/downloads).  After installing the extension:
 
 * Log into you Magento admin
 * Go to: System > Configuration > Sales - Google API

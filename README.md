@@ -5,7 +5,7 @@ A free Magento extension to easily stop your computer from appearing in Google A
 
 <dl>
   <dt>Product Page</dt>
-  <dd><a href="http://www.foxrunsoftware.net/shop/magento-extensions/google-analytics-exclude/">Google Analytics Exclude</a></dd>
+  <dd><a href="http://www.magentocommerce.com/magento-connect/google-analytics-exclude-1506.html">Google Analytics Exclude</a></dd>
 </dl>
 
 Features
@@ -17,7 +17,7 @@ Features
 Instructions
 ------------
 
-Download from [foxrunsoftware.net](http://www.foxrunsoftware.net/shop/magento-extensions/google-analytics-exclude/) or [github](https://github.com/foxrunsoftware/GoogleAnalyticsExclude/downloads).  After installing the extension:
+Download from [Magento Connect](http://www.magentocommerce.com/magento-connect/google-analytics-exclude-1506.html) or [github](https://github.com/foxrunsoftware/GoogleAnalyticsExclude/downloads).  After installing the extension:
 
 * Log into you Magento admin
 * Go to: System > Configuration > Sales - Google API
